@@ -1,0 +1,9 @@
+package: com.nishal.sms.dto
+			- class : StudentDto
+
+package: com.nishal.sms.dao
+			- Interface: StudentDao
+			- Class: StudentDaoImpl implements StudentDaoImpl
+
+package: com.nishal.sms.util
+			class: DbUtil
